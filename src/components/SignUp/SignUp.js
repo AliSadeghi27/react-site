@@ -17,7 +17,7 @@ const SignUp = () => {
     let userPassword = "";
 
     if (password === repeatPassword) {
-      if (password <= 6 || repeatPassword <= 6) {
+      if (password > 5) {
         userPassword = password;
       } else {
         alert("رمز عبور حداقل باید 6 کاراکتر داشته باشد");
