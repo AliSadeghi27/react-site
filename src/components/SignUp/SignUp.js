@@ -41,7 +41,7 @@ const SignUp = () => {
     }
 
     if (userData) {
-      fetch("https://site-13ea8-default-rtdb.firebaseio.com/users.json", {
+      fetch("https://react-site-667ef-default-rtdb.firebaseio.com/users.json", {
         method: "post",
         headers: { "Content-type": "application/json" },
         body: JSON.stringify(userData),
