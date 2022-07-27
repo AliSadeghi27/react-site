@@ -12,7 +12,7 @@ const Users = () => {
 
     try {
       const response = await fetch(
-        "https://react-site-667ef-default-rtdb.firebaseio.com/users.json"
+        "https://site-cae14-default-rtdb.firebaseio.com/users.json"
       );
       const data = await response.json();
       const loadedUsers = [];
