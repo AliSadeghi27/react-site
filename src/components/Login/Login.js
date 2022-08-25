@@ -23,7 +23,7 @@ const Login = () => {
   };
   const fetchUser = useCallback(async () => {
     const response = await fetch(
-      "https://site-cae14-default-rtdb.firebaseio.com/users.json"
+      "https://react-site-ee85b-default-rtdb.firebaseio.com/users.json"
     );
     const data = await response.json();
     let loadedUsers = [];

@@ -40,7 +40,7 @@ const AddProduct = () => {
     if (title && price && rating && img && brand) {
       let productData = { title, price, rating, img, brand };
 
-      fetch("https://site-cae14-default-rtdb.firebaseio.com/products.json", {
+      fetch("https://react-site-ee85b-default-rtdb.firebaseio.com/products.json", {
         method: "post",
         headers: { "Content-type": "application/json" },
         body: JSON.stringify(productData),

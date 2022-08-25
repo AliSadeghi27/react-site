@@ -14,7 +14,7 @@ const ProductItemPage = () => {
 
     try {
       const response = await fetch(
-        "https://site-cae14-default-rtdb.firebaseio.com/products.json"
+        "https://react-site-ee85b-default-rtdb.firebaseio.com/products.json"
       );
       const data = await response.json();
       const loadedProducts = [];
